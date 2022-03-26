@@ -1,0 +1,29 @@
+@font-face {
+	font-family: 'Bahschrift';
+	src: url('../fonts/BAHNSCHRIFT.eot');
+	src: local('☺'), url('../fonts/BAHNSCHRIFT.woff') format('woff'),
+					 url('../fonts/BAHNSCHRIFT.ttf') format('truetype');	
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+	font-family: 'KaushanScript';
+	src: url('../fonts/KaushanScript-Regular.eot');
+	src: local('☺'), url('../fonts/KaushanScript-Regular.woff') format('woff'),
+					 url('../fonts/KaushanScript-Regular.ttf') format('truetype');
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}

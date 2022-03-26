@@ -1,0 +1,43 @@
+body {
+	font-family: 'Bahschrift';
+	background-color: #e6e6e6;
+}
+
+/* ---------- Paralax -------------- */
+
+.parallax-banner {
+  background-image: radial-gradient(#007c7f, #015d5f);
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  min-height: 400px;
+}
+
+.destaque-banner-parallax {
+  background-color: #007c7f;
+  opacity:0.6;
+  min-height: 400px;
+}
+
+.parallax-banner img {
+  position: absolute;
+  width: 108%;
+  height: 108%;
+  top: -10px;
+  object-fit: contain;
+}
+
+.parallax-banner h2{
+  z-index: 1;
+  position: relative;
+  color: #fff;
+  font-size: 90px;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 32px;
+  line-height: 60px;
+}
