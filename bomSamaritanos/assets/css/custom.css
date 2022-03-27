@@ -41,3 +41,105 @@ body {
   letter-spacing: 32px;
   line-height: 60px;
 }
+.menu-cabecalho {
+    background-color: #fff;
+    padding: 7px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99999;
+}
+
+.menu-cabecalho img {
+    height: 40px;
+}
+
+.baner {
+    background-color: #007b7e;
+    margin-top: 65px;
+    text-align: center;
+    color: #fff;
+    background-image: url(../img/bg_banner-interno.png); 
+    display: grid;
+    padding: 10px;
+}
+
+.circulocabecalho{
+     background-color: #fff;
+     height: 70px;
+     width: 70px;
+     border-radius: 50%;
+     margin: 10px auto 10px auto;    
+}
+
+.circulocabecalho img  {
+       height: 50px;
+       margin-top: 10px
+}
+
+.menuprincipal {
+      list-style: none;
+      border: none;
+      padding: 0;
+}
+
+.menuvertcal{
+        background-color: #00b6b1;
+        color: #fff;
+}
+
+.menuprincipal a {
+        color: #fff;
+        text-decoration: none;
+        border-bottom: #00a19d solid 2px;
+        padding: 12px;
+        width: 100%;
+        display: block;
+}
+
+.menuprincipal a:hover {
+  background-color: #00a19d;
+}
+
+.offcanvas-body {
+  padding: 0;
+}
+
+.offcanvas-header {
+  border-bottom: #fff 2px solid;
+  padding: 24px;
+}
+
+.textopaginainterna {
+  background-color: #fff;
+  padding: 35px;
+}
+
+.relatos {
+  width: 100%;
+ }
+
+ .relatos h2 {
+  color: #00b6b1;
+  margin-top: 10px;
+  margin-left: 7px;
+}
+
+.linkyoutube {
+  color: #00b6b1;
+  text-decoration: none;
+  font-size: 110%;
+}
+
+.espacovideo {
+  padding-top: 15px;
+}
+
+@media (min-width: 576px) { 
+  .menu-cabecalho img.tamanho-logo {
+    height: 50px;
+  }
+  .espacovideo { 
+    padding-top: 0;
+ }
+}
