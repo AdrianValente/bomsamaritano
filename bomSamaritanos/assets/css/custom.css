@@ -1,6 +1,9 @@
 body {
-  font-family: 'Bahschrift';
   background-color: #e6e6e6;
+}
+
+h1 , h2, h3, h4, h5, h6, bold, .bold, strong, button, .circulo-numero-banner, .pag-tranparencia, .btn, .pix, .card-bom-samaritano-cinza h2 {
+  font-family: 'Bahschrift';
 }
 
 /* ---------- Paralax -------------- */
@@ -90,6 +93,14 @@ body {
 .circulo-numero-banner p {
   color: #ffffff;
   font-size: 1.5rem;
+}
+
+.table-itens-center th, .table-itens-center td {
+  text-align: center;
+}
+
+.hidden-tablet {
+  display: none;
 }
 
 @media (min-width: 768px) {
@@ -284,6 +295,14 @@ footer .endereco-rodape h3 {
   font-size: 110%;
 }
 
+a.linkyoutube:hover {
+  color: #ffffff !important;
+}
+
+.linkyoutube img {
+  margin-right: 5px;
+}
+
 .espacovideo {
   padding-top: 15px;
 }
@@ -311,6 +330,7 @@ footer .endereco-rodape h3 {
 
 .pix p {
   margin: 0px;
+  color: #fff !important;
 }
 
 .link-tranparencia,
@@ -390,11 +410,101 @@ a:hover {
   filter: grayscale(0%);
 }
 
+.area-certificacao {
+  padding-bottom: 1.5rem;
+}
+
+.area-certificacao .col-6 {
+  margin: 10px 0;
+}
+
+.accordion-body h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
+}
+
+p {
+  color: #555555;
+}
+
+.rodape p {
+  color: #ffffff;
+}
+
+.fundo-trasnparente {
+  background-color: transparent !important;
+}
+
+.link-panel {
+  background-color: #ffffff;
+  color: #0ab4af;
+  font-weight: bold;
+  padding: 0.6rem;
+  border: solid 1px #e6e6e6;
+  border-radius: 3px;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+}
+
+.link-panel:hover {
+  background-color: #e6e6e6;
+  color: #015d5f;
+  text-decoration: none;
+}
+
+.link-panel img {
+  max-height: 30px;
+}
+
+.card-bom-samaritano-verde, .card-bom-samaritano-cinza {
+  padding: 1.3rem;
+  text-align: center;
+  font-weight: bold;
+  align-items: center;
+  margin-bottom: 1rem;
+  line-height: normal;
+  height: 11rem;
+}
+
+.card-bom-samaritano-verde {
+  background-color: #0ab4af !important;
+  cursor: pointer;
+}
+
+.card-bom-samaritano-cinza h2 {
+  color: #f09a00 !important;
+  font-size: 2rem;
+  color: #f09a00 !important;
+  font-size: 4rem;
+  margin: 0rem;
+}
+
+.card-bom-samaritano-verde p {
+  color: #ffffff !important;
+  margin: 0;
+}
+
+.card-bom-samaritano-verde p:hover, a.card-bom-samaritano-verde:hover, a.card-bom-samaritano-cinza:hover {
+  text-decoration: none;
+}
+
+.card-bom-samaritano-cinza {
+  background-color: #e6e6e6 !important;
+}
+
+.card-bom-samaritano-verde img {
+  width: 70px;
+  align-items: center;
+}
 
 @media (min-width: 768px) {
   .card-bom-samaritano .card-title {
     font-size: 1rem;
     height: 80px;
+  }
+  .hidden-tablet {
+    display: revert;
   }
 }
 

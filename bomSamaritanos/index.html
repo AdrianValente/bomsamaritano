@@ -23,8 +23,8 @@
   <!-- Inicio Menu Principal  -->
 
   <nav class="d-flex justify-content-between align-items-center menu-cabecalho">
-    <img src="assets/img/menu-hamburguer.png" class="cursor-menu" alt="" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop"
-      aria-controls="offcanvasWithBackdrop">
+    <img src="assets/img/menu-hamburguer.png" class="cursor-menu" alt="" data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop">
 
     <div class="offcanvas offcanvas-start menuvertcal" tabindex="-1" id="offcanvasWithBackdrop"
       aria-labelledby="offcanvasWithBackdropLabel">
@@ -33,27 +33,32 @@
       </div>
       <div class="offcanvas-body">
         <ul class="menuprincipal">
-          <li> <a href="#">Principal</a> </li>
-          <li> <a href="#">Quem somos</a> </li>
-          <li><a href="#">Trabalhos realizados</a> </li>
-          <li><a href="#">Página de transparência</a> </li>
-          <li><a href="#">Relatos</a> </li>
-          <li><a href="#">Seja voluntário</a> </li>
-          <li><a href="#">Parceiros</a> </li>
-          <li><a href="#">Contatos</a> </li>
-          <li><a href="#">Homenagem aos voluntários</a> </li>
+          <li> <a href="index.html#principal">Principal</a> </li>
+          <li> <a href="index.html#quemSomos">Quem somos</a> </li>
+          <li><a href="index.html#trabalhosRealizados">Trabalhos realizados</a> </li>
+          <li><a href="transparencian.html">Página de transparência</a> </li>
+          <li><a href="index.html#relatos">Relatos</a> </li>
+          <li><a href="index.html#sejaVoluntario">Seja voluntário</a> </li>
+          <li><a href="index.html#parceiros">Parceiros</a> </li>
+          <li><a href="index.html#contatos">Contatos</a> </li>
+          <li><a href="agradecimentos.html">Homenagem aos voluntários</a> </li>
         </ul>
       </div>
     </div>
-    <img src="assets/img/logo-cabecalho-bom-samaritano.png" alt="Bom Samaritano Logo" class="tamanho-logo">
-    <img src="assets/img/icone-cabecalho-watsapp.png" alt="Watsaap Bom Samaritano"  class="cursor-menu">
+    <a href="index.html">
+      <img src="assets/img/logo-cabecalho-bom-samaritano.png" alt="Bom Samaritano Logo" class="tamanho-logo">
+    </a>
+    <a target="_blank"
+      href="https://api.whatsapp.com/send?phone=5511999182127&text=Boa%20tarde%2C%20eu%20sou%20Andr%C3%A9%20do%20Bom%20Samaritano%20It%C3%BA%2C%20sou%20volunt%C3%A1rio%20e%20retornarei%20a%20sua%20mensagem%20o%20mais%20r%C3%A1pido%20o%20poss%C3%ADvel%2C%20obrigado%20pelo%20contato.">
+      <img src="assets/img/icone-cabecalho-watsapp.png" alt="Watsaap Bom Samaritano" class="cursor-menu">
+    </a>
   </nav>
 
   <!-- Fim Menu Principal  -->
 
   <!-- Inicio Banner Principal  -->
 
-  <div class="parallax-banner">
+  <div class="parallax-banner" id="principal">
     <img class="object" data-value="-1" src="assets/img/banner_paralax/banner-4-paralax.png" alt="image-3">
     <img class="object" data-value="-5" src="assets/img/banner_paralax/banner-3-paralax.png" alt="image-3">
     <img class="object" data-value="6" src="assets/img/banner_paralax/banner-2-paralax.png" alt="image-2">
@@ -94,8 +99,18 @@
 
   <!-- Quem Somo e Acordeon   -->
   <main>
-    <section class="interno_branco">
+    <section class="interno_branco" id="quemSomos">
       <h2>Quem somos</h2>
+
+      <p>A Ong(OSCIP) Projeto Bom Samaritano é uma organização não governamental, sob a forma de sociedade civil de
+        interesse público, de direito privado, sem fins lucrativos, tendo por objetivo o acompanhamento de enfermos,
+        internados nas unidades hospitalares, na modalidade de Acolhimento Institucional, sem distinção de credo
+        político ou religioso e raça, incluindo atendimento espiritual, social, psicológico, treinamentos, palestras.
+      </p>
+      <p>Apesar de o objetivo inicial ser o acompanhamento a pacientes internados, a ONG passou a fornecer auxílio a
+        pacientes também em suas casas, após a alta hospitalar. Os organizadores responsáveis compreendem que o cuidado
+        ao ser humano vai além de apenas acompanhamentos no hospital, e decidiu acompanhá-los no dia a dia buscando
+        suprir</p>
 
       <div class="accordion accordion-flush" id="accordionBomSamaritano">
         <div class="accordion-item">
@@ -125,32 +140,27 @@
           <h2 class="accordion-header" id="flush-headingTwo">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-              Missão, Vissão e Valores
+              Missão, Visão e Valores
             </button>
           </h2>
           <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
             data-bs-parent="#accordionBomSamaritano">
             <div class="accordion-body">
-              <p>Em 2019 o Fundador da OSB Bom Samaritano Itú, teve que acompanhar o cunhado no Hospital Regional em
-                Sorocaba, onde observou um grande número de pacientes sozinhos nos leitos.</p>
+              <h4>MISSÃO</h4>
+              <p>Levar amparo aos enfermos de Itu e região, hospitalizados e sem acompanhantes e prover apoio aos mesmos
+                em suas casas, dizendo: “Estamos com vocês” </p>
+              <h4>VISÃO</h4>
+              <p>Um lugar mais justo onde os enfermos hospitalizados tenham a assistência e empatia para atravessar um
+                momento de necessidade.</p>
+              <h4>VALORES</h4>
+              <p>RESPEITO - A intimidade dos enfermos no momento do atendimento.</p>
+              <p>COMPAIXÃO - Auxílio nas necessidades básicas, como alimentação e higiene. </p>
+              <p>SOLIDARIEDADE - Para prover assistências àqueles que precisam de cuidados em casa.</p>
+              <p>EMPATIA - A capacidade de se colocar no lugar do outro</p>
             </div>
           </div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-              O Projeto
-            </button>
-          </h2>
-          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-            data-bs-parent="#accordionBomSamaritano">
-            <div class="accordion-body">
-              <p>Em 2019 o Fundador da OSB Bom Samaritano Itú, teve que acompanhar o cunhado no Hospital Regional em
-                Sorocaba, onde observou um grande número de pacientes sozinhos nos leitos.</p>
-            </div>
-          </div>
-        </div>
+
         <div class="accordion-item">
           <h2 class="accordion-header" id="flush-headingFour">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -161,14 +171,28 @@
           <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
             data-bs-parent="#accordionBomSamaritano">
             <div class="accordion-body">
-              <p>Em 2019 o Fundador da OSB Bom Samaritano Itú, teve que acompanhar o cunhado no Hospital Regional em
-                Sorocaba, onde observou um grande número de pacientes sozinhos nos leitos.</p>
+
+              <ul class="list-group">
+                <li class="list-group-item"><strong>Nome da Instituição:</strong> Projeto Bom Samaritano</li>
+                <li class="list-group-item"><strong>Categorias:</strong> Combate à Fome, Crianças e Adolescentes,
+                  Gestantes, Orientação Psicológica, Saúde</li>
+                <li class="list-group-item"><strong>Gestor/Responsável:</strong> Antonio André</li>
+                <li class="list-group-item"><strong>Dados Bancários:</strong> Banco: Brasil | Conta: 72535-8 | Agência:
+                  0354-9</li>
+                <li class="list-group-item"><strong>Endereço da Instituição:</strong> Rua Ignácio Rodrigues D'Avila nº
+                  317 Itu - SP</li>
+                <li class="list-group-item"><strong>Telefone Fixo da Instituição:</strong> (11) 99918-2127</li>
+                <li class="list-group-item"><strong>Whataspp da Instituição:</strong> (11) 99918-2127</li>
+                <li class="list-group-item"><strong>E-mail da Instituição:</strong> projetobomsamaritano.itu@gmail.com
+                </li>
+              </ul>
+
             </div>
           </div>
         </div>
       </div>
 
-      <a href="###" class="link-tranparencia">
+      <a href="transparencian.html" class="link-tranparencia">
         <div class="pag-tranparencia d-flex justify-content-center">
           <img src="assets/img/icone-portal-transparencia-banner.png" alt="Transparência">
           Página de Transparência <br />Bom Samaritano
@@ -180,7 +204,7 @@
 
     <!-- Trabalhos Realizados e cards   -->
 
-    <section class="interno_cinza">
+    <section class="interno_cinza" id="trabalhosRealizados">
       <h2>Trabalhos Realizados</h2>
 
       <div class="row reset">
@@ -191,7 +215,7 @@
               alt="Acompanhamento de pacientes Internados">
             <div class="card-body d-grid">
               <h5 class="card-title">Acompanhamento de pacientes Internados</h5>
-              <a href="acompanhamentodepacintesinternados.html" class="btn btn-primary">Ver mais sobre</a>
+              <a href="acompanhamento-de-pacintes-internados.html" class="btn btn-primary">Ver mais sobre</a>
             </div>
           </div>
         </div>
@@ -200,7 +224,7 @@
             <img src="assets/img/icone-pos-internacao.png" class="card-img-top" alt="Acompanhamento pós internação">
             <div class="card-body d-grid">
               <h5 class="card-title">Acompanhamento pós internação</h5>
-              <a href="#" class="btn btn-primary">Ver mais sobre</a>
+              <a href="acompanhamento-pos-internacao.html" class="btn btn-primary">Ver mais sobre</a>
             </div>
           </div>
         </div>
@@ -210,7 +234,7 @@
             ">
             <div class="card-body d-grid">
               <h5 class="card-title">Doação de alimentos específicos para tratamento</h5>
-              <a href="#" class="btn btn-primary">Ver mais sobre</a>
+              <a href="doacao-alimentos-pos-tratamento.html" class="btn btn-primary">Ver mais sobre</a>
             </div>
           </div>
         </div>
@@ -219,8 +243,8 @@
             <img src="assets/img/icone-cestas-basica.png" class="card-img-top"
               alt="Entrega de marmitas e cesta básica para famílias Carentes Pós pandemia">
             <div class="card-body d-grid">
-              <h5 class="card-title">Entrega de marmitas e cesta básica para famílias Carentes Pós pandemia</h5>
-              <a href="#" class="btn btn-primary">Ver mais sobre</a>
+              <h5 class="card-title">Doação de marmitas e cesta básica para famílias Carentes</h5>
+              <a href="doacao-cesta-basica-marmitas.html" class="btn btn-primary">Ver mais sobre</a>
             </div>
           </div>
         </div>
@@ -230,7 +254,7 @@
               alt="Facilitação de acessosà leitura e criatividade de adultos e crianças">
             <div class="card-body d-grid">
               <h5 class="card-title">Facilitação de acessosà leitura e criatividade de adultos e crianças</h5>
-              <a href="#" class="btn btn-primary">Ver mais sobre</a>
+              <a href="facilicao-acesso-leitura-especiais.html" class="btn btn-primary">Ver mais sobre</a>
             </div>
           </div>
         </div>
@@ -243,70 +267,67 @@
 
     <!-- Relatos dos Projetos e Videos e imagens   -->
 
-    <section class="interno_verde">
+    <section class="interno_verde" id="relatos">
       <div class="relatos container-fluid">
         <h2>Relatos do Projeto</h2>
 
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 col-lg-6">
-                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                                class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                                aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                                aria-label="Slide 3"></button>
-                        </div>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="assets/img/fotos-projetos/banner_0001.jpg" class="d-block w-100"
-                                    alt="Foto projeto">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="assets/img/fotos-projetos/banner_0002.jpg" class="d-block w-100"
-                                    alt="Foto Projeto">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="assets/img/fotos-projetos/img-tamanho-padrao-001.jpg" class="d-block w-100"
-                                    alt="Foto projeto">
-                            </div>
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/img/fotos-projetos/banner_0001.jpg" class="d-block w-100" alt="Foto projeto">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/fotos-projetos/banner_0002.jpg" class="d-block w-100" alt="Foto Projeto">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/fotos-projetos/img-tamanho-padrao-001.jpg" class="d-block w-100"
+                      alt="Foto projeto">
+                  </div>
 
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
                 </div>
-                <div class="col-12 col-lg-6 espacovideo">
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/Eb0m7av-9YE"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                    <a class="linkyoutube" href="#">
-                        <img src="assets/img/icone-youtube.png" alt="Youtube">
-                        Veja mais videos no nosso canal do Youtube
-                    </a>
-                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
             </div>
+            <div class="col-12 col-lg-6 espacovideo">
+              <iframe width="100%" height="315" src="https://www.youtube.com/embed/Eb0m7av-9YE"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+              <a href="https://www.youtube.com/channel/UCA7mA9nch4yjy5Ms4Ifgymw" target="_blank" class="linkyoutube">
+                <img src="assets/img/icone-youtube.png" alt="Youtube">
+                Veja mais videos no nosso canal do Youtube
+              </a>
+            </div>
+          </div>
 
         </div>
     </section>
-    
 
     <!-- Fim Relatos dos Projetos e Videos e imagens   -->
 
     <!-- Ajude o Bom Samaritano e Formulários   -->
 
-    <section class="interno_branco bg-icones-home">
+    <section class="interno_branco bg-icones-home" id="sejaVoluntario">
       <h2>Ajude o Bom Samaritano Itú</h2>
 
       <h2 class="cabecalhodoacao">Seja um voluntário Doando seu Tempo.</h2>
@@ -338,10 +359,11 @@
             <label for="floatingInput">Projetos de Interesse:</label>
           </div>
           <div class="form-floating mb-3">
-            <textarea class="form-control" placeholder="ande uma Mensagem" id="Mensagem" style="height: 100px"></textarea>
+            <textarea class="form-control" placeholder="ande uma Mensagem" id="Mensagem"
+              style="height: 100px"></textarea>
             <label for="floatingTextarea2">Mande uma Mensagem:</label>
           </div>
-          <div class="form-floating mb-3 d-grid">  
+          <div class="form-floating mb-3 d-grid">
             <button class="btn btn-primary" type="button">Enviar</button>
           </div>
           <div class="d-grid mb-3 link-voluntario-tecnico">
@@ -377,7 +399,7 @@
 
     <!-- Parceiros e Slider   -->
 
-    <section class="interno_cinza">
+    <section class="interno_cinza" id="parceiros">
       <h2>Parceiros</h2>
 
       <div class="row reset area-parceiros-home">
@@ -395,7 +417,8 @@
         </div>
 
         <div class="col-6 col-lg-3">
-          <a href="###">
+          <a href="https://api.whatsapp.com/send?phone=5511999182127&text=Boa%20tarde%2C%20eu%20sou%20Andr%C3%A9%20do%20Bom%20Samaritano%20It%C3%BA%2C%20sou%20volunt%C3%A1rio%20e%20retornarei%20a%20sua%20mensagem%20o%20mais%20r%C3%A1pido%20o%20poss%C3%ADvel%2C%20obrigado%20pelo%20contato."
+            target="_blank">
             <img src="assets/img/logo-parceiros/seja-nosso-parceiro.png" class="img-fluid" alt="Racer Pneus">
           </a>
         </div>
@@ -411,7 +434,7 @@
   <!-- Fim Parceiros e Slider   -->
 
   <!-- Inicio do Rodapé   -->
-  <footer class="rodape">
+  <footer class="rodape" id="contatos">
     <h2> Contatos </h2>
 
     <div class="container-fluid">
@@ -423,10 +446,16 @@
 
           <div class="row">
             <div class="col-12 col-lg-5 d-flex justify-content-between align-items-center" style="padding-bottom: 10px">
-              <a href="###"> <img src="assets/img/icone-rodape-watsapp.png" alt="Watsaap - Bom Samaritano"></a>
-              <a href="###"><img src="assets/img/icone-rodape-instagram.png" alt="instagran - Bom Samaritano"></a>
-              <a href="###"><img src="assets/img/icone-rodape-facebook.png" alt="facebook - Bom Samaritano"></a>
-              <a href="###"><img src="assets/img/icone-rodape-youtube.png" alt="youtube - Bom Samaritano"></a>
+              <a href="https://api.whatsapp.com/send?phone=5511999182127&text=Boa%20tarde%2C%20eu%20sou%20Andr%C3%A9%20do%20Bom%20Samaritano%20It%C3%BA%2C%20sou%20volunt%C3%A1rio%20e%20retornarei%20a%20sua%20mensagem%20o%20mais%20r%C3%A1pido%20o%20poss%C3%ADvel%2C%20obrigado%20pelo%20contato."
+                target="_blank">
+                <img src="assets/img/icone-rodape-watsapp.png" alt="Watsaap - Bom Samaritano">
+              </a>
+              <a href="https://www.instagram.com/bom_samaritano.itu/" target="_blank"><img
+                  src="assets/img/icone-rodape-instagram.png" alt="instagran - Bom Samaritano"></a>
+              <a href="https://web.facebook.com/bomsamaritanoitu/" target="_blank"><img
+                  src="assets/img/icone-rodape-facebook.png" alt="facebook - Bom Samaritano"></a>
+              <a href="https://www.youtube.com/channel/UCA7mA9nch4yjy5Ms4Ifgymw" target="_blank"><img
+                  src="assets/img/icone-rodape-youtube.png" alt="youtube - Bom Samaritano"></a>
             </div>
             <div class="col-12 col-lg-7 endereco-rodape">
               <h3>Endereço:</h3>
@@ -439,7 +468,8 @@
   </footer>
   <div class="container-fluid row agadecimento-rodape">
     <div class="col-12">
-      <a href="agradecimentos.html" class="link-agradecimento-rodape">Obrigado a todos os Voluntários</a>
+      <a href="agradecimentos.html" target="_blank" class="link-agradecimento-rodape">Obrigado a todos os
+        Voluntários</a>
     </div>
   </div>
   <!-- Fim do Rodapé   -->
